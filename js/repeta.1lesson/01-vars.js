@@ -10,6 +10,6 @@ const totalPrice = 200.74;
 const userName = 'Chelsy';
 const messege = 'Добро пожаловать';
 const isOpen = true;
-const shouldConfirm = falshe;
+const shouldConfirm = false;
 
-console.log(5);
+console.log();
