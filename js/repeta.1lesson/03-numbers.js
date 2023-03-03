@@ -14,7 +14,7 @@ elementHeight = Number.parseFloat(elementHeight);// - parseFloat читает с
 console.log(`elementHeight:`, elementHeight);*/
 
 /*let salary = 1300.67256;
-//salary = salary.toFixed(2); // toFixed отсекает до числа в скобках после точки
+salary = salary.toFixed(2); // toFixed отсекает до числа в скобках после точки
 salary = Number(salary);
 
 console.log(salary);
