@@ -46,3 +46,31 @@ if (salary <= 500) {
     console.log(`уровень 4`);
  }
 
+       
+const balance = -1000;
+/*let messege 
+
+if (balance >= 0) {
+    messege = `позитивный баланс`;
+} else {
+    messege = `негативный баланс`;
+}
+console.log(messege);*/
+
+    //или используется
+         //Тернарный оператор
+
+const message = balance >= 0 ? `Позитивный баланс` : `Негативный баланс`;
+
+console.log(message);
+
+        //Блочная видимость переменніх - принцип матрёшки, то что внутри - не видно с наружи, то что с наружи - видно в нутри
+const b = 10;
+
+if (true) {
+    const a = 5;
+    console.log(a);
+    console.log(b);
+}
+//console.log(a);- вне фигурных скобок.переменная a- не существует, только внутри , а переменная b может везде быть
+console.log(b);
