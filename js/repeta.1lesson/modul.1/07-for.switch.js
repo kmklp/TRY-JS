@@ -49,7 +49,7 @@ switch (stars) {
         cost = 30;
         break;
     
-    case 3:
+    
         cost = 50;
         break;
 

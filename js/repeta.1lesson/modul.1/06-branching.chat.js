@@ -20,7 +20,7 @@ const subscribtion = `pro`;
 
 const canAccessContent = subscribtion === `pro` || subscribtion === `vip`;
 console.log(`Есть доступ к контенту?`, subscribtion);
-
+/*
           //Branching - Ветвления
 if (4>30) {
 //тело
@@ -42,12 +42,14 @@ if (salary <= 500) {
     console.log(`уровень 2`);
 } else if (salary > 1000 && salary < 1500) {
     console.log(`уровень 3`);
-} else  /*(salary > 1500)*/ { 
+} else  /*(salary > 1500) { 
     console.log(`уровень 4`);
  }
 
        
 const balance = -1000;
+/*
+
 /*let messege 
 
 if (balance >= 0) {
@@ -59,7 +61,7 @@ console.log(messege);*/
 
     //или используется
          //Тернарный оператор
-
+/*
 const message = balance >= 0 ? `Позитивный баланс` : `Негативный баланс`;
 
 console.log(message);
@@ -74,3 +76,4 @@ if (true) {
 }
 //console.log(a);- вне фигурных скобок.переменная a- не существует, только внутри , а переменная b может везде быть
 console.log(b);
+*/

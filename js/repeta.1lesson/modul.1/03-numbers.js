@@ -35,7 +35,7 @@ console.log(result);*/
 
           /*Задача
 Напиши скрипт который просит пользователя ввести число и степень,
-Возводит число в эту степень и сохраняет переменную*/
+Возводит число в эту степень и сохраняет переменную*
 
 //1.Попросить ввести число и сохранить в переменную
 let base = prompt(`введите число`)
@@ -53,5 +53,29 @@ console.log(power);
 //3.возвести введенные данные в степень и вывести
 const result = base ** power;
 console.log(result);
-
-
+*/
+/*
+function calculateTotalPrice(orderedQuantity, pricePerItem) {
+    //orderedQuantity = 5;
+    //pricePerItem = 100;
+    // Change code below this line
+    const totalPrice = orderedQuantity * pricePerItem;
+    
+    // Change code above this line
+    return totalPrice;
+    
+}
+console.log(calculateTotalPrice(5, 100));
+//calculateTotalPrice(5, 100);
+//console.log(totalPrice);
+*/
+/*
+function makeMessage(name, price) {
+  
+  // Change code below this lin
+   const message =  `You picked ${name}, price per item is ${price} credits`;
+  // Change code above this line
+  return message;
+};
+console.log(makeMessage(`Radar`, `6150`));
+*/
