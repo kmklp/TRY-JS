@@ -3,12 +3,10 @@
 //логирование методом console.log
 //уникальность идентификаторов
 
-
-
 const age = 10;
 const totalPrice = 200.74;
-const userName = 'Chelsy';
-const messege = 'Добро пожаловать';
+const userName = "Chelsy";
+const messege = "Добро пожаловать";
 const isOpen = true;
 const shouldConfirm = false;
 
