@@ -61,8 +61,8 @@ console.log(cart);
 */
            //Задача 3 - напиши скрипт который подсчитывает сумму всех чётных чисел в массиве
 //1 Переменная total
-const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11];
-let total = 0;
+//const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 11];
+//let total = 0;
 //2 Перебрать массив
 /*
 for (let i = 0; i < numbers.length; i += 1) {
@@ -85,7 +85,7 @@ for (const number of numbers) {
 console.log(`сумма всех чётных чисел =`, total);
 */
             //Лучше делать логику от обратного с помошью continue
-
+/*
 for (const number of numbers) {
     if (number % 2 !== 0) {
         console.log(` - НЕ четное - пропустить`,number);
@@ -95,3 +95,20 @@ for (const number of numbers) {
     total += number;
 }
 console.log(`сумма всех чётных чисел =`, total);
+*/
+      //Задача на поиск в массиве обьекта, имени
+const logins = [`manDoge`, `kiwiDubst`, `polySkout`, `ajaxTen`];
+const loginToFind = `polySkout`;
+
+for (let i = 0; i < logins.length; i += 1) {
+    const logins = logins[i];
+
+    if (logins === loginToFind) {
+        message = `обьект ${loginToFind} найден`;
+        break;
+    }
+
+        message = `обьект ${loginToFind} не  найден`;
+    
+}
+console.log(message);
